@@ -19,7 +19,6 @@ function App() {
   // Using Effect for running when the status of filter changes
   useEffect(() => {
     filterHandler();
-    // saveLocalTodos();
   }, [todos, status]);
   
   // using Effect to save whenever state of Todos changes
@@ -62,7 +61,6 @@ function App() {
     <div className="App">
       <header>
         <h1>Task Manager</h1>
-        <h4>{inputText}</h4>
       </header>
       <Form
         inputText={inputText}
