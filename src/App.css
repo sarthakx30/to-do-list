@@ -193,3 +193,15 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
+@media(max-width:768px) {
+  header{
+    font-size:1.5em;
+  }
+  form{
+    flex-wrap: wrap;
+  }
+  form input{
+    width: 75%;
+  }
+}
