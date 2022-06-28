@@ -74,6 +74,8 @@ function App() {
         todos={todos}
         setTodos={setTodos}
         filteredTodos={filteredTodos}
+        inputText={inputText}
+        setInputText={setInputText}
       />
     </div>
   );

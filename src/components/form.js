@@ -21,7 +21,7 @@ const Form = (props) => {
     }
     return (
         <form>
-            <input value={props.inputText} onChange={inputTextHandler} type="text" className="todo-input" />
+            <input placeholder='Write a new task here' value={props.inputText} onChange={inputTextHandler} type="text" className="todo-input" />
             <button onClick={submitTodoHandler} className="todo-button" type="submit">
                 <i className="fas fa-plus-square"></i>
             </button>
