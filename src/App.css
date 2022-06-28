@@ -224,6 +224,9 @@ select {
   form input{
     width: 75%;
   }
+  ::placeholder{
+    font-size:0.85em;
+  }
 }
 
 ::placeholder{
